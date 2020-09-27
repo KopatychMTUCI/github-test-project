@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './mtuic_logo.webp';
 import './App.css';
 
 function App() {
@@ -8,15 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Добро пожаловать в МТУСИ
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://mtuci.ru/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Заходите на наш сайт
         </a>
       </header>
     </div>
