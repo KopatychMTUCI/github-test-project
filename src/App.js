@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './mtuic_logo.webp';
-import './App.css';
+import React from 'react'
+import logo from './mtuic_logo.webp'
+import './App.css'
+import FooterContainer from "./components/Footer/FooterContainer"
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
           Заходите на наш сайт
         </a>
       </header>
+      <FooterContainer/>
     </div>
   );
 }
 
-export default App;
+export default App

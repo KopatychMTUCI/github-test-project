@@ -1,5 +1,12 @@
-import {createStore} from "redux";
+import {combineReducers, createStore} from "redux";
+import footerReducer from "./footer-reducer";
 
-const store = createStore()
+const rootReducer = combineReducers({
+    footer: footerReducer
+})
+
+const store = createStore(rootReducer)
+
+window.store = store
 
 export default store
