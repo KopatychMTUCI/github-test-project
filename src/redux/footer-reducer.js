@@ -1,6 +1,7 @@
 const CHANGE_TEXT = "CHANGE-TEXT"
 
 const initialState = {
+    id: 0,
     text: "активистам"
 }
 
