@@ -14,7 +14,7 @@ const footerReducer = (state = initialState, action) => {
                 ...state,
                 text: (state.text === "активистам")
                     ? "постиронистам"
-                    : "активистам"
+                    : "октябрятам"
             }
 
         default:
